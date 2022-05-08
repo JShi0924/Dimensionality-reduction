@@ -85,15 +85,15 @@
 	<CENTER>$W_{ij}\leftarrow W_{ij}\frac{(VH^T)_{ij}}{(WHH^T)_{ij}}$<CENTER>  
 <p align="left">* Stop when $H_{ij}$ and $W_{ij}$ don't change within a specified tolerance  
 
-<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/NMF.png">  
+<div align=center><img width="600" height="450" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/NMF.png">  
 
-##<p align="left">T-distributed stochastic neighbor embedding (t-SNE)  
+## <p align="left">T-distributed stochastic neighbor embedding (t-SNE)  
 
-<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Biological%20networks.png">  
+<div align=center><img width="600" height="450" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/t-sne.png">  
 
 <p align="left">A non-linear dimensional reduction approach that attempts to map a distribution of pairwise distances among nn high-dimensional samples from their high dimension to a distribution of pairwise distances of the nn samples in a low dimension.    
 
-<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/t-sne_1.png">  
+<div align=center><img width="650" height="350" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/t-sne_1.png">  
 
 <p align="left">The goal of t-SNE is to learn a map $X ↦ Y$ such that the $y^1$, ..., $y^n$ are mapped to a lower dimensional space (d = 2 or 3). In the lower dimensional space, the probability of $y^i$, $y^j$ being associated/near each other is assumed to follow a t-distribution with one degree of freedom where for i $\neq$ j  
 <center>$q_{i,j}=\frac{(1+||y_j-y_j||^2)^{-1}}{\sum_{k,l;k\neq l}(1+||y_k-y_l||^2)^{-1}} $ and 0 otherwise  
@@ -101,16 +101,16 @@
 <center>$KL(p||q)=\sum_{i,j;i\neq j}p_{ij}\log \frac{p_{ij}}{q_{ij}}$  
 <p align="left">which is a measure of the difference between distributions p and q. The minimization of the Kullback-Leibler divergence with respect to $y_i$ is performed using gradient descent.  
 
-##<p align="left">Uniform manifold approximation and projection (UMAP)  
+## <p align="left">Uniform manifold approximation and projection (UMAP)  
 <p align="left">Uniform manifold approximation and projection (UMAP) is a nonlinear dimensionality reduction technique. Visually, it is similar to t-SNE, but it assumes that the data is uniformly distributed on a locally connected Riemannian manifold and that the Riemannian metric is locally constant or approximately locally constant.  
 
-<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/UMAP.png">  
+<div align=center><img width="700" height="450" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/UMAP.png">  
  
 > <p align="left">Let $X_i$, ..., $X_n$ be the input data. For each $X_i$ compute the k nearest neughbors $X_{i1}$, ..., $X_{ik}$ and  
 <center>$\rho=\min \{d(X_{i}, X_{ik})|1 \leq j \leq k, d > 0\}$  
 and set $\sigma_i$ using $\sum^k_{j=1}e^{-max(0,d(X_i,X_{i,j})-\rho_i)/\sigma_i}=\log_2(k)$  
 
-###<p align="left">graph construction  
+### <p align="left">graph construction  
 > <p align="left">Define a weighted directed graph $\overline{G}=(V,E,w)$ where the verticies V of $\overline{G}$ are the set X. Then form the set of directed edges with weights $w_h$  
 <CENTER>$E=\{(X_i,X_{ij})|1\leq j \leq k, 1 \leq i \leq n \}$  
 <CENTER>$w_h(X_i,X_{ij})=e^{-max(0,d(X_i,X_{ij})-\rho_i)/\sigma_i}$  
