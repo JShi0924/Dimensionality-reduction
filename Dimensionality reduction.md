@@ -1,12 +1,14 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 # Dimensionality reduction  
 
 ## Curse of dimensionality  
-<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/hypersphere.png">  
+
+<div align=center><img width="500" height="250" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/hypersphere.png">  
 
 
 > **Calculation of the volume of the hypersphere divided by the hypercube as $d → ∞$**
 > 
-> ![Curse of dimensionality](/Users/shijiachen/Desktop/dimentionality\ reduction/Curse\ of\ dimensionality.png)
+> <div align=center><img width="600" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Curse%20of%20dimensionality.png">
 
 > **So as $d → ∞$, $V_{HS}/V_{HC}→0$**  
 
@@ -26,7 +28,7 @@
 ---
 ##The features of biological networks  
 
-![](/Users/shijiachen/Desktop/dimentionality\ reduction/Biological\ networks.png)  
+<div align=center><img width="500" height="400" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Biological%20networks.png">  
 
 * **Highly interconnected** with modular structure.
 * Weakly to strongly scale-free (fraction of nodes with degree k follows a power law k<sup>(-$\alpha$)</sup>.
@@ -35,7 +37,7 @@
 * **Ideal for dimenstional reduction approaches** to both visualize and analyze functional genomics data.  
 
 ##Principal components analysis (PCA)
-![](/Users/shijiachen/Desktop/dimentionality\ reduction/pca.png)  
+<div align=center><img width="400" height="300" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/pca.png">  
 
 ###The concept of PCA  
 The principal components of a collection of points in a real coordinate space are a sequence of p unit vectors, where the i-th vector is the direction of a line that best fits the data while being orthogonal to the first i-1 vectors. Here, a best-fitting line is defined as one that minimizes the average squared distance from the points to the line. These directions constitute an orthonormal basis in which different individual dimensions of the data are linearly uncorrelated. Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
@@ -85,11 +87,11 @@ The nonzero singular values of X are the square roots of the eigenvalues of $XX^
 	<CENTER>$W_{ij}\leftarrow W_{ij}\frac{(VH^T)_{ij}}{(WHH^T)_{ij}}$<CENTER>  
 <p align="left">* Stop when $H_{ij}$ and $W_{ij}$ don't change within a specified tolerance  
 
-![NMF](/Users/shijiachen/Desktop/dimentionality\ reduction/NMF.png)  
+<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/NMF.png">  
 
 ##<p align="left">T-distributed stochastic neighbor embedding (t-SNE)  
 
-![](/Users/shijiachen/Desktop/dimentionality\ reduction/t-sne.png)  
+<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Biological%20networks.png">  
 
 <p align="left">A non-linear dimensional reduction approach that attempts to map a distribution of pairwise distances among nn high-dimensional samples from their high dimension to a distribution of pairwise distances of the nn samples in a low dimension.    
 
