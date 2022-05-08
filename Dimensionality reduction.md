@@ -13,7 +13,7 @@
 
 > <p align="left">And the distance between the center and corners of the hypercube is $\sqrt dr→ ∞$
 
----  
+
 **<p align="left">Based on the calculation, we know that:**   
 
 * <p align="left">Nearly all of high-dimensional space in a hypercube is **distant from the center and close to the border**.
@@ -24,7 +24,6 @@
 * **<p align="left">Distances from a random point to its nearest and farthest neighbor are similar.**
 * <p align="left">Distance-based classification generalizes poorly unless # samples grows exponentially with d  
 
----
 ##<p align="left">The features of biological networks  
 
 <div align=center><img width="500" height="400" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Biological%20networks.png">  
