@@ -1,7 +1,7 @@
 # Dimensionality reduction  
 
 ## Curse of dimensionality  
-![](https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/hypersphere.png)  
+<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/hypersphere.png">  
 
 
 > **Calculation of the volume of the hypersphere divided by the hypercube as $d → ∞$**
