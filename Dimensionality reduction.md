@@ -1,5 +1,5 @@
 # Dimensionality reduction  
-
+From Professor Stefan Bekiranov's lecture slides "Differential expression analysis". Scribed by Jiachen Shi.
 ## Curse of dimensionality  
 
 <div align=center><img width="500" height="250" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/hypersphere.png">  
