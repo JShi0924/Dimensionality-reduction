@@ -24,15 +24,15 @@
 * **<p align="left">Distances from a random point to its nearest and farthest neighbor are similar.**
 * <p align="left">Distance-based classification generalizes poorly unless # samples grows exponentially with d  
 
-##<p align="left">The features of biological networks  
+## <p align="left">The features of biological networks  
 
 <div align=center><img width="500" height="400" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Biological%20networks.png">  
 
-* **<p align="left">Highly interconnected** with modular structure.
+* **<p align="left">Highly interconnected with modular structure.
 * <p align="left">Weakly to strongly scale-free (fraction of nodes with degree k follows a power law k<sup>(-$\alpha$)</sup>.
-* <p align="left">Subsets of genes, proteins or regulatory elements tend to **form highly correlated modules**.
-* <p align="left">Functional genomics datasets tend to (not always!) occupy **a low dimensional subpace** of the feature space (e.g., genes, proteins, regulatory elements).
-* ****<p align="left">**Ideal for dimenstional reduction approaches** to both visualize and analyze functional genomics data.  
+* <p align="left">Subsets of genes, proteins or regulatory elements tend to form highly correlated modules.
+* <p align="left">Functional genomics datasets tend to (not always!) occupy a low dimensional subpace of the feature space (e.g., genes, proteins, regulatory elements).
+* <p align="left">Ideal for dimenstional reduction approaches to both visualize and analyze functional genomics data.  
 
 ##Principal components analysis (PCA)
 <div align=center><img width="400" height="300" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/pca.png">  
