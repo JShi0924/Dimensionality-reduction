@@ -1,4 +1,3 @@
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 # Dimensionality reduction  
 
 ## Curse of dimensionality  
@@ -6,24 +5,24 @@
 <div align=center><img width="500" height="250" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/hypersphere.png">  
 
 
-> **Calculation of the volume of the hypersphere divided by the hypercube as $d → ∞$**
+> **<p align="left">Calculation of the volume of the hypersphere divided by the hypercube as $d → ∞$**
 > 
 > <div align=center><img width="600" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Curse%20of%20dimensionality.png">
 
-> **So as $d → ∞$, $V_{HS}/V_{HC}→0$**  
+> **<p align="left">So as $d → ∞$, $V_{HS}/V_{HC}→0$**  
 
-> And the distance between the center and corners of the hypercube is $\sqrt dr→ ∞$
+> <p align="left">And the distance between the center and corners of the hypercube is $\sqrt dr→ ∞$
 
 ---  
-**Based on the calculation, we know that:**   
+**<p align="left">Based on the calculation, we know that:**   
 
-* Nearly all of high-dimensional space in a hypercube is **distant from the center and close to the border**.
-* High dimensional datasets at risk of **being sparse**. The average distance between two random points:
+* <p align="left">Nearly all of high-dimensional space in a hypercube is **distant from the center and close to the border**.
+* <p align="left">High dimensional datasets at risk of **being sparse**. The average distance between two random points:
 	in a unit square is roughly 0.52.
 	in a unit 3-d cube is roughly 0.66.
 	in a unit 1,000,000-d hypercube is ∼408.25.
-* **Distances from a random point to its nearest and farthest neighbor are similar.**
-* Distance-based classification generalizes poorly unless # samples grows exponentially with d  
+* **<p align="left">Distances from a random point to its nearest and farthest neighbor are similar.**
+* <p align="left">Distance-based classification generalizes poorly unless # samples grows exponentially with d  
 
 ---
 ##The features of biological networks  
