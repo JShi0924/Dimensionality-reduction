@@ -110,7 +110,7 @@
 <center>$\rho=\min \{d(X_{i}, X_{ik})|1 \leq j \leq k, d > 0\}$  
 and set $\sigma_i$ using $\sum^k_{j=1}e^{-max(0,d(X_i,X_{i,j})-\rho_i)/\sigma_i}=\log_2(k)$  
 
-**<p align="left">graph construction**  
+**<p align="left">Graph construction**  
 > <p align="left">Define a weighted directed graph $\overline{G}=(V,E,w)$ where the verticies V of $\overline{G}$ are the set X. Then form the set of directed edges with weights $w_h$  
 <CENTER>$E=\{(X_i,X_{ij})|1\leq j \leq k, 1 \leq i \leq n \}$  
 <CENTER>$w_h(X_i,X_{ij})=e^{-max(0,d(X_i,X_{ij})-\rho_i)/\sigma_i}$  
@@ -119,7 +119,7 @@ and set $\sigma_i$ using $\sum^k_{j=1}e^{-max(0,d(X_i,X_{i,j})-\rho_i)/\sigma_i}
 <p align="left">where $\circ$ is the Haddamard (or pointwise) product.  
 <p align="left">If $A_{ij}$ is the probability that the directed edge from $X_i$ to $X_j$ exists, then $B_{ij}$ is the probability that at least one of the two directed edges (from $X_i$ to $X_j$ and from $X_j$ to $X_i$) exists.  
 
-**<p align="left">graph layout**
+**<p align="left">Graph layout**
 <p align="left">Learn a mapping $X↦Y$ by first initializing the low dimentional representation using spectral embedding. Spectral embedding is a dimensional reduction approach that maps a connected graph G to a low dimension vector space in such a way that two points that are "close" in the graph are "close" in the low dimensional vector space.  
 
 <p align="left">Formally, this is done by calculating the eigenvectors of the Laplacian L = D - B of the adjacency matrix B where D is a diagonal matrix with $D_{ii}=\sum_j B_{ij}$.  
