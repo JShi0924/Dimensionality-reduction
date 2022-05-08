@@ -66,9 +66,9 @@
 > <center>$\sum_{ZZ}= {\frac{1}{n-1}}Z^TZ={\frac{1}{n-1}}D^TD={\frac{1}{n-1}}\hat{D}^2$<center>  
 
 > <p align="left">Where $D ̂^2$ is a a square diagonal matrix (0s truncated), and we have used the SVD of X  
-> 	<center>$(UDV^T)^T=VD^TU^T$<center>
-	<center>$V^TV=I_P$<center>
-	<center>$U^TU=I_n$<br><center>  
+> <center>$(UDV^T)^T=VD^TU^T$<center>
+<center>$V^TV=I_P$<center>
+<center>$U^TU=I_n$<br><center>  
 	
 **<p align="left">Non-negative matrix factorization</p>**  
 
@@ -93,7 +93,7 @@
 
 <p align="left">A non-linear dimensional reduction approach that attempts to map a distribution of pairwise distances among nn high-dimensional samples from their high dimension to a distribution of pairwise distances of the nn samples in a low dimension.    
 
-![](/Users/shijiachen/Desktop/dimentionality\ reduction/t-sne_1.png)  
+<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/t-sne_1.png">  
 
 <p align="left">The goal of t-SNE is to learn a map $X ↦ Y$ such that the $y^1$, ..., $y^n$ are mapped to a lower dimensional space (d = 2 or 3). In the lower dimensional space, the probability of $y^i$, $y^j$ being associated/near each other is assumed to follow a t-distribution with one degree of freedom where for i $\neq$ j  
 <center>$q_{i,j}=\frac{(1+||y_j-y_j||^2)^{-1}}{\sum_{k,l;k\neq l}(1+||y_k-y_l||^2)^{-1}} $ and 0 otherwise  
@@ -104,7 +104,7 @@
 ##<p align="left">Uniform manifold approximation and projection (UMAP)  
 <p align="left">Uniform manifold approximation and projection (UMAP) is a nonlinear dimensionality reduction technique. Visually, it is similar to t-SNE, but it assumes that the data is uniformly distributed on a locally connected Riemannian manifold and that the Riemannian metric is locally constant or approximately locally constant.  
 
-<CENTER>![](/Users/shijiachen/Desktop/dimentionality\ reduction/UMAP.png)  
+<div align=center><img width="300" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/UMAP.png">  
  
 > <p align="left">Let $X_i$, ..., $X_n$ be the input data. For each $X_i$ compute the k nearest neughbors $X_{i1}$, ..., $X_{ik}$ and  
 <center>$\rho=\min \{d(X_{i}, X_{ik})|1 \leq j \leq k, d > 0\}$  
