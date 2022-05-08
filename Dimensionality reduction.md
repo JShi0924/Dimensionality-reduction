@@ -28,40 +28,40 @@
 
 <div align=center><img width="500" height="400" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Biological%20networks.png">  
 
-* **<p align="left">Highly interconnected with modular structure.
+* <p align="left">Highly interconnected with modular structure.
 * <p align="left">Weakly to strongly scale-free (fraction of nodes with degree k follows a power law k<sup>(-$\alpha$)</sup>.
 * <p align="left">Subsets of genes, proteins or regulatory elements tend to form highly correlated modules.
 * <p align="left">Functional genomics datasets tend to (not always!) occupy a low dimensional subpace of the feature space (e.g., genes, proteins, regulatory elements).
 * <p align="left">Ideal for dimenstional reduction approaches to both visualize and analyze functional genomics data.  
 
-##Principal components analysis (PCA)
+## <p align="left">Principal components analysis (PCA)
 <div align=center><img width="400" height="300" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/pca.png">  
 
-###The concept of PCA  
-The principal components of a collection of points in a real coordinate space are a sequence of p unit vectors, where the i-th vector is the direction of a line that best fits the data while being orthogonal to the first i-1 vectors. Here, a best-fitting line is defined as one that minimizes the average squared distance from the points to the line. These directions constitute an orthonormal basis in which different individual dimensions of the data are linearly uncorrelated. Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
+### <p align="left">The concept of PCA  
+<p align="left">The principal components of a collection of points in a real coordinate space are a sequence of p unit vectors, where the i-th vector is the direction of a line that best fits the data while being orthogonal to the first i-1 vectors. Here, a best-fitting line is defined as one that minimizes the average squared distance from the points to the line. These directions constitute an orthonormal basis in which different individual dimensions of the data are linearly uncorrelated. Principal component analysis (PCA) is the process of computing the principal components and using them to perform a change of basis on the data, sometimes using only the first few principal components and ignoring the rest.
 
-###The principle of PCA   
-Assume we have $n$ samples and $p$ features which are in the form of a $n × p$ centered matrix Χ where we subtracted the mean across samples of each feature.  
+### <p align="left">The principle of PCA   
+<p align="left">Assume we have $n$ samples and $p$ features which are in the form of a $n × p$ centered matrix Χ where we subtracted the mean across samples of each feature.  
 
-> The unbiased sample covariance matrix is then 
+> <p align="left">The unbiased sample covariance matrix is then 
 <center>$\sum_{XX}= {\frac{1}{n-1}}X^TX$<center>
 
-PCA finds a linear transformation $Z = XV$ that diagonalizes $\sum_{XX}$.  
+<p align="left">PCA finds a linear transformation $Z = XV$ that diagonalizes $\sum_{XX}$.  
 
-**Singular value decomposition**  
+**<p align="left">Singular value decomposition**  
 
-> X can be decomposed as follows:  
+> <p align="left">X can be decomposed as follows:  
 <center>$X=UDV^T$</center >  
 
-where U and V are $n×n$ and $p×p$ orthogonal matricies, respectively, and D is a $n×p$ diagonal matrix. The diagonal elements of D are the singular values of X. The columns of U and V are the left-singular vectors and right-singular vectors.
+<p align="left">where U and V are $n×n$ and $p×p$ orthogonal matricies, respectively, and D is a $n×p$ diagonal matrix. The diagonal elements of D are the singular values of X. The columns of U and V are the left-singular vectors and right-singular vectors.
 
-The left singular vectors and right singular vectors of X are the eigenvectors of $XX^T$  and $X^TX$.  
+<p align="left">The left singular vectors and right singular vectors of X are the eigenvectors of $XX^T$  and $X^TX$.  
 
-The nonzero singular values of X are the square roots of the eigenvalues of $XX^T$  and $X^TX$.  
+<p align="left">The nonzero singular values of X are the square roots of the eigenvalues of $XX^T$  and $X^TX$.  
 	
-**PCA**  
+**<p align="left">PCA**  
 
-> The covariance matrix of Z = XV where the columns of V are the right-singular vectors of X is  
+> <p align="left">The covariance matrix of Z = XV where the columns of V are the right-singular vectors of X is  
 
 > <center>$\sum_{ZZ}= {\frac{1}{n-1}}Z^TZ={\frac{1}{n-1}}D^TD={\frac{1}{n-1}}\hat{D}^2$<center>  
 
