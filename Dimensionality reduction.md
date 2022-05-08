@@ -7,7 +7,8 @@ From Professor Stefan Bekiranov's lecture slides "Differential expression analys
 
 > **<p align="left">Calculation of the volume of the hypersphere divided by the hypercube as $d → ∞$**
 > 
-> <div align=center><img width="600" height="150" src="https://github.com/JShi0924/Dimensionality-reduction/blob/main/dimentionality%20reduction_image/Curse%20of%20dimensionality.png">
+> $V_{HC}=(2r)^d$ and $V_{HS}=\frac{\pi^{\frac{d}{2}}r^d}{\Gamma (\frac{d}{2}+1)}$ thus,  
+	$\frac{V_{HS}}{V_{HC}}=\frac{\pi^{\frac{d}{2}}}{2^d \Gamma (\frac{d}{2}+1)}\rightarrow \frac{1}{\sqrt \pi d}(\frac{\pi e}{2d})^{\frac{d}{2}}$
 
 > **<p align="left">So as $d → ∞$, $V_{HS}/V_{HC}→0$**  
 
